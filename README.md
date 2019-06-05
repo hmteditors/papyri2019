@@ -73,7 +73,9 @@ If the other text comments on the papyrus, talk to the HMT editors or Project Ar
 
 ### Diplomatic vs. Normalized
 
-…
+The HMT's standard is to produce an archival diplomatic edition, and to generate normalized versions from it. The Editor's Guide explains the standards for this. 
+
+It is possible that a published papyrus will already be normalized in various ways. In this case, this should be noted in the `<sourceDesc>` element.
 
 ### Wrapping Words
 
@@ -113,7 +115,6 @@ The point of the HMT and its technological infrastructure is that we can use CTS
 We are aware that this may seem to undo the work of past editors. Their publications remain on record and available for readers, and can be (and ought to be) cited in the `<teiHeader>` element. HMT editions of papyri should *not* include modern editorial reconstructions.
 
 (Ancient scribal corrections, deletions, or additions should be included, and the Editor's Guide has examples of how to do this.)
-
 
 [^ohco1]: The original OHCO model stated that a "text" was an "ordered hiearchy of *content* objects," which immediately led to chaos and acrimony, since no one could agree on what "content" was.
 
