@@ -145,4 +145,6 @@ In one transformation, `<gap>` elements are replaces with spaces, and `<unclear>
 
 In a full Homer Multitext Environment, the editorial status of each word-token will be catalogued, but this information would *not* be in the CTS text, but elsewhere.
 
+`*.xsl`, `*.html`, `*.css`
 
+These files are merely for reference. The `.html` file is a transformation of the XML example, for human viewing. The various `.css` files support that file. The `*.xsl` files transform the XML file.
