@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="chs-gp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Iliad P8 (P. Petrie 1.3 [4] = P. Lit. Lond. 21)</title>
+				<editor> <name xml:id="jm">Joseph Miller</name> </editor>
+				<editor> <name xml:id="cwb">Christopher Blackwell</name> </editor>
+			</titleStmt>
+			<editionStmt>
+				<edition>A new digital edition.</edition>
+				<respStmt>
+					<name>Joseph Miller, ed.</name>
+					<resp>after the edition of West, S. 1967. <title>The Ptolemaic Papyri of
+						Homer.</title> 103-107.</resp>
+				</respStmt>
+			</editionStmt>
+			<extent>under 1Mb</extent>
+			<publicationStmt>
+				<publisher> The Center for Hellenic Studies of Harvard University </publisher>
+				<authority> <name>Casey Dué and Mary Ebbott, edd.</name> </authority>
+				<availability>
+					<p>©2009, The Center for Hellenic Studies. This work is made available under the
+						Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States
+						License: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Third century B.C. (West 1967: 103). Provenance:Gurob; cartonnage. Catalogue
+					entries: Mertens-Pack 879; LDAB 2373; Allen-Sutton-West p008. Normalized to modern orthography.</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div n="11" type="book">
+				<l n="502"> <gap extent="31" unit="letters"></gap> <w><gap extent="1" unit="letters"></gap>έζων</w> </l>
+				<l n="503"><gap extent="20" unit="letters"></gap> <w><gap extent="6" unit="letters"></gap>ε</w> <w>φάλαγγα<unclear>ς</unclear></w>.</l>
+				<l n="504"> <gap extent="26" unit="letters"></gap>
+					<w><gap extent="3" unit="letters"></gap><unclear>ι</unclear>οὶ</w> </l>
+				<l n="504a"><gap/>νο<unclear>ι</unclear> περ</l>
+				<l n="505"><gap extent="23" unit="letters"></gap> <w><unclear>ἠ</unclear>υκόμοιο</w>,</l>
+				<l n="506"><gap extent="25" unit="letters"></gap> <w><gap extent="5" unit="letters"></gap>να</w> <w>λαῶ<unclear>ν</unclear></w>,</l>
+				<l n="507"><gap extent="28" unit="letters"></gap>
+					<w><gap extent="1" unit="letters"></gap><unclear>μ</unclear>ον</w>.</l>
+				<l n="508"><gap extent="31" unit="letters"></gap>
+					Ἀχαιοὶ</l>
+				<l n="509"><gap extent="16" unit="letters"></gap> <w><gap extent="11" unit="letters"></gap>τες</w> ἕλοιεν</l>
+				<l n="509a"><gap/><w><gap extent="3" unit="letters"></gap>χη</w> ἕλοιντο.</l>
+				<l n="510"><gap extent="26" unit="letters"></gap> <w><gap extent="2" unit="letters"></gap>στορα</w> <w>δῖο<unclear>ν</unclear></w>·</l>
+				<l n="511"><gap extent="24" unit="letters"></gap> <w><gap extent="4" unit="letters"></gap><unclear>ῶ</unclear>ν</w>,</l>
+				<l n="512"> <gap extent="26" unit="letters"></gap>
+					<w><gap extent="1" unit="letters"></gap><unclear>α</unclear>χάων</w> </l>
+				<l n="513"><gap extent="27" unit="letters"></gap>
+					<w><gap extent="3" unit="letters"></gap>υχας</w> ἵππους</l>
+				<l n="513a"><gap/><gap extent="1"
+					unit="letters"/> νοιο</l>
+				<l n="514"> <gap extent="27" unit="letters"></gap>
+					<w><gap extent="2" unit="letters"></gap>λων</w> </l>
+				<l n="514a"><gap/> ἄλλους</l>
+				<l n="515"><gap extent="21" unit="letters"></gap> <w><gap extent="5" unit="letters"></gap><unclear>κ</unclear>α</w>
+					πάσσων."</l>
+				<l n="516"><gap extent="24" unit="letters"></gap>
+					<w><gap extent="4" unit="letters"></gap>τα</w> Νέστωρ.</l>
+				<l n="517"><gap extent="23" unit="letters"></gap> <w> <gap extent="3" unit="letters"></gap> </w> δὲ Μαχάων</l>
+				<l n="518">βαῖν',<gap extent="28" unit="letters"></gap></l>
+				<l n="519"> <w>μά<gap extent="6" unit="letters"></gap></w>
+					<gap extent="28" unit="letters"></gap> </l>
+				<l n="520">ως <unclear>ο</unclear><gap/></l>
+				<l n="521"> <w>Κεβριόν<gap extent="2" unit="letters"></gap></w>
+					<gap extent="25" unit="letters"></gap> </l>
+				<l n="522"> <w>Ἕκ<gap extent="4" unit="letters"></gap></w>
+					<gap extent="29" unit="letters"></gap> </l>
+				<l n="523">Ἕκτορ, <w>ν<gap extent="2" unit="letters"></gap></w>
+					<gap extent="27" unit="letters"></gap></l>
+				<l n="524">ἐσχατιῆ<gap extent="30" unit="letters"></gap></l>
+				<l n="525">Τρῶες <w> <unclear>ὀ</unclear> <gap extent="8" unit="letters"></gap> </w> <gap extent="21" unit="letters"></gap></l>
+				<l n="526"><w><unclear>Αἴα</unclear>ς</w> δὲ <w>
+					<unclear>κ</unclear> <gap extent="6" unit="letters"></gap> </w> <gap extent="22" unit="letters"></gap></l>
+				<l n="527">εὐρὺ <w><unclear>γ</unclear>ὰρ</w> <gap extent="32" unit="letters"></gap></l>
+				<l n="528">κεῖθ' <w>ἵπ<gap extent="4" unit="letters"></gap></w>
+					<gap extent="27" unit="letters"></gap></l>
+				<l n="529">κοῦροι <unclear>τ</unclear><gap/></l>
+				<l n="531">ὣς ἄρα <w>φ<unclear>ω</unclear><gap extent="5" unit="letters"></gap></w> <gap extent="24" unit="letters"></gap></l>
+				<l n="532"> <w><unclear>μ</unclear>άστιγ<gap extent="1" unit="letters"></gap></w> <gap extent="24" unit="letters"></gap> </l>
+				<l n="533"> <w>ῥ<gap extent="1" unit="letters"></gap>νφ'</w> <w>ἔφ<unclear>ε</unclear><gap extent="3" unit="letters"></gap></w>
+					<gap extent="27" unit="letters"></gap> </l>
+				<l n="534"> <w>στείβον<unclear>τ</unclear><gap extent="2" unit="letters"></gap></w> <gap extent="30" unit="letters"></gap> </l>
+				<l n="535">νέρθεν <gap extent="35" unit="letters"></gap></l>
+				<l n="536"><unclear>ἃς</unclear> ἄρ' ἀφ' <w>ἱ<gap extent="6" unit="letters"></gap></w> <gap extent="23" unit="letters"></gap></l>
+				<l n="537"> <gap extent="3" unit="letters"></gap> <w><gap extent="1" unit="letters"></gap>π'</w> <w>ἐπ<gap extent="9" unit="letters"></gap></w> <gap extent="18" unit="letters"></gap> </l>
+			</div>
+		</body>
+	</text>
+</TEI>

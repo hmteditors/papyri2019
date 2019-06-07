@@ -26,7 +26,7 @@ The "Citation Objects" part is important. While a papyrus fragment is a physical
 
 We have other ways of documenting physical objects and aligning passages of text to them, highly effective ways. But we are assiduous about separating the concern of "text" from "presentation of text" from "documentation of text-bearing surface."
 
-We are also careful to separate the concerns textual data, versus metadata, commentary, argument, and bibliography. In a TEI XML edition of a fragment of Homeric Epic, there should be nothing in the `<text>…</text>` element that is not the text of the fragment or markup on that text that follows the HMT guidelines. 
+We are also careful to separate the concerns of textual data, versus metadata, commentary, argument, and bibliography. In a TEI XML edition of a fragment of Homeric Epic, there should be nothing in the `<text>…</text>` element that is not the text of the fragment or markup on that text that follows the HMT guidelines. 
 
 Bibliography, publication history, commentary, and the like can be in an accompanying file (in XML or some other format), or (if possible) in the `<teiHeader>` element. 
 
@@ -62,6 +62,10 @@ The structure is:
 **There is no other hierarchy except the citation-hierarchy.** We do not record columns, physical line-breaks, or other aspects of the physical document. Those are presumably recorded in the publication, which we do not need to reproduce.
 
 If there is a single papyrus "text" spread across several physical fragments, those can be edited as one HMT edition or several (one for each fragment). The correct citations to the Iliadic text will keep them straight. Either way the only structure in the XML is that of Book+Line.
+
+### What if the Editor Includes Notes on the Text?
+
+Do not include them in HMT XML file. `<note>` is not in the HMT's XML vocabulary.
 
 ### Homeric Text and Other Text On One Document
 
@@ -107,16 +111,38 @@ So when there is markup *within* a word, we need to define the whole word explic
 
 The HMT parsers and tokenizers know to look for `<w>…</w>` first, tokenize those, and then default to white-space delimited words.
 
-
 ### Gaps and Supplied
 
-The point of the HMT and its technological infrastructure is that we can use CTS URNs to compare passages of text. So, there is really no reason to use `<supplied>` in markup. For example, a traditional papyrological edition might have, in a fragment of *Iliad* 11.528: `<w>ἵπ<supplied reason="lost">πους</supplied></w>`. For the HMT, we leave the gap empty, and write `<w>ἵπ<gap unit="letters" extent="4"/></w>`.
+The point of the HMT and its technological infrastructure is that we can use CTS URNs to compare passages of text. So, there is really no reason to use `<supplied>` in markup. For example, a traditional papyrological edition might have, in a fragment of *Iliad* 11.528: `<w>ἵπ<supplied reason="lost">πους</supplied></w>`. 
 
-We are aware that this may seem to undo the work of past editors. Their publications remain on record and available for readers, and can be (and ought to be) cited in the `<teiHeader>` element. HMT editions of papyri should *not* include modern editorial reconstructions.
+For the HMT, we leave the gap empty, and write `<w>ἵπ<gap unit="letters" extent="4"/></w>`.
+
+(The two attributes, `extent` and `unit` are both optional, but if either is used, both must be used.)
+
+`<supplied>` is not a valid element in an HMT XML edition.
+
+We are aware that this may seem to undo the work of past editors. Their publications remain on record and available for readers, and can be (and ought to be) cited in the `<teiHeader>` element (see above). HMT editions of papyri should *not* include modern editorial reconstructions.
 
 (Ancient scribal corrections, deletions, or additions should be included, and the Editor's Guide has examples of how to do this.)
 
 [^ohco1]: The original OHCO model stated that a "text" was an "ordered hiearchy of *content* objects," which immediately led to chaos and acrimony, since no one could agree on what "content" was.
 
+## Demonstration Files
+
+`iliad_p8_uc.xml`
+
+This is a demonstration XML file that applies the rules of the [Homer Multitext Editor's Guide](http://homermultitext.github.io/hmt-editors-guide/guide/).
+
+`demo.cex`
+
+This is an example of how HMT texts are encoded for use in the CITE Architecture. This CEX file contains two different transformations of `iliad_p8_uc.xml`, as well as the corresonding Iliadic text from Allen's edition of the *Iliad*.
+
+**A CEX file like this is generated automatically from the archival XML files, assuming they follow the project's conventions.**
+
+The [CEX ("CITE Exchange") format is documented online](). But it is simple enough in this example. After some metadata about the CEX file itself, there is a `#!ctscatalog` that lists the specific versions of texts in the file. There are (in thise case) three `#!ctsdata` blocks, one for each text. In each of those, the citable passages are listed, one on each line, with each line consistiting of a CTS-URN, a `#` delimiter, and the plain-text contents of that line.
+
+In one transformation, `<gap>` elements are replaces with spaces, and `<unclear>` text is included (without any special marking). In another, `_` characters give an idea of the extent of lacunae, and under-dots have been added to text marked as unclear. 
+
+In a full Homer Multitext Environment, the editorial status of each word-token will be catalogued, but this information would *not* be in the CTS text, but elsewhere.
 
 

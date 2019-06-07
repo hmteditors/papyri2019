@@ -1,0 +1,133 @@
+#!cexversion
+3.0
+
+#!citelibrary
+name#Papyrus Demo for HMT
+urn#urn:cite2:hmt:demoPapyrus.v1:1
+license#Public Domain.
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0012.tlg001.allen:#Plaintext#Homeric Epic#Iliad#Perseus Greek, following Allen##true#grc
+urn:cts:greekLit:tlg0012.tlg001.p8:#book/line#Homeric Epic#IliadLuke#Papyrus P8##true#grc
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:#book/line#Homeric Epic#IliadLuke#Papyrus P8#editorial#true#grc
+
+#!ctsdata
+urn:cts:greekLit:tlg0012.tlg001.p8:11.502#                                                                    έζων
+urn:cts:greekLit:tlg0012.tlg001.p8:11.503#                                                        ε φάλαγγας.
+urn:cts:greekLit:tlg0012.tlg001.p8:11.504#                                                              ιοὶ
+urn:cts:greekLit:tlg0012.tlg001.p8:11.504a#  νοι περ
+urn:cts:greekLit:tlg0012.tlg001.p8:11.505#                                                ἠυκόμοιο ,
+urn:cts:greekLit:tlg0012.tlg001.p8:11.506#                                                                να λαῶν,
+urn:cts:greekLit:tlg0012.tlg001.p8:11.507#                                                              μον .
+urn:cts:greekLit:tlg0012.tlg001.p8:11.508#                                                                Ἀχαιοὶ
+urn:cts:greekLit:tlg0012.tlg001.p8:11.509#                                                          τες ἕλοιεν
+urn:cts:greekLit:tlg0012.tlg001.p8:11.509a#          χη ἕλοιντο.
+urn:cts:greekLit:tlg0012.tlg001.p8:11.510#                                                            στορα δῖον·
+urn:cts:greekLit:tlg0012.tlg001.p8:11.511#                                                            ῶν ,
+urn:cts:greekLit:tlg0012.tlg001.p8:11.512#                                                          αχάων
+urn:cts:greekLit:tlg0012.tlg001.p8:11.513#                                                                υχας ἵππους
+urn:cts:greekLit:tlg0012.tlg001.p8:11.513a#      νοιο
+urn:cts:greekLit:tlg0012.tlg001.p8:11.514#                                                              λων
+urn:cts:greekLit:tlg0012.tlg001.p8:11.514a#  ἄλλους
+urn:cts:greekLit:tlg0012.tlg001.p8:11.515#                                                        κα πάσσων."
+urn:cts:greekLit:tlg0012.tlg001.p8:11.516#                                                            τα Νέστωρ.
+urn:cts:greekLit:tlg0012.tlg001.p8:11.517#                                                        δὲ Μαχάων
+urn:cts:greekLit:tlg0012.tlg001.p8:11.518#βαῖν',                                                          
+urn:cts:greekLit:tlg0012.tlg001.p8:11.519#μά                                                                        
+urn:cts:greekLit:tlg0012.tlg001.p8:11.520#ως ο  
+urn:cts:greekLit:tlg0012.tlg001.p8:11.521#Κεβριόν                                                          
+urn:cts:greekLit:tlg0012.tlg001.p8:11.522#Ἕκ                                                                      
+urn:cts:greekLit:tlg0012.tlg001.p8:11.523#Ἕκτορ, ν                                                              
+urn:cts:greekLit:tlg0012.tlg001.p8:11.524#ἐσχατιῆ                                                              
+urn:cts:greekLit:tlg0012.tlg001.p8:11.525#Τρῶες ὀ                                                              
+urn:cts:greekLit:tlg0012.tlg001.p8:11.526#Αἴας δὲ κ                                                            
+urn:cts:greekLit:tlg0012.tlg001.p8:11.527#εὐρὺ γὰρ                                                                  
+urn:cts:greekLit:tlg0012.tlg001.p8:11.528#κεῖθ' ἵπ                                                                  
+urn:cts:greekLit:tlg0012.tlg001.p8:11.529#κοῦροι τ  
+urn:cts:greekLit:tlg0012.tlg001.p8:11.531#ὣς ἄρα φω                                                              
+urn:cts:greekLit:tlg0012.tlg001.p8:11.532#μάστιγ                                                      
+urn:cts:greekLit:tlg0012.tlg001.p8:11.533#ῥ     νφ' ἔφε                                                                
+urn:cts:greekLit:tlg0012.tlg001.p8:11.534#στείβοντ                                                                    
+urn:cts:greekLit:tlg0012.tlg001.p8:11.535#νέρθεν                                                                        
+urn:cts:greekLit:tlg0012.tlg001.p8:11.536#ἃς ἄρ' ἀφ' ἱ                                                              
+urn:cts:greekLit:tlg0012.tlg001.p8:11.537#            π' ἐπ                                                          
+
+#!ctsdata
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.502#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ έζων
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.503#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ε φάλαγγας̣.
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.504#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ι̣οὶ
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.504a#_ νοι̣ περ
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.505#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ἠ̣υκόμοιο ,
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.506#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ να λαῶν̣,
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.507#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ μ̣ον .
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.508#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Ἀχαιοὶ
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.509#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ τες ἕλοιεν
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.509a#_ _ _ _ _ χη ἕλοιντο.
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.510#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ στορα δῖον̣·
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.511#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ῶ̣ν ,
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.512#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ α̣χάων
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.513#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ υχας ἵππους
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.513a#_ _ _ νοιο
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.514#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ λων
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.514a#_ ἄλλους
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.515#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ κ̣α πάσσων."
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.516#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ τα Νέστωρ.
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.517#_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ δὲ Μαχάων
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.518#βαῖν', _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.519#μά _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.520#ως ο̣ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.521#Κεβριόν _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.522#Ἕκ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.523#Ἕκτορ, ν _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.524#ἐσχατιῆ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.525#Τρῶες ὀ̣ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.526#Α̣ἴ̣α̣ς δὲ κ̣ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.527#εὐρὺ γ̣ὰρ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.528#κεῖθ' ἵπ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.529#κοῦροι τ̣ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.531#ὣς ἄρα φω̣ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.532#μ̣άστιγ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.533#ῥ _ _ νφ' ἔφε̣ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.534#στείβοντ̣ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.535#νέρθεν _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.536#ἃ̣ς̣ ἄρ' ἀφ' ἱ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+urn:cts:greekLit:tlg0012.tlg001.p8.editorial:11.537#_ _ _ _ _ _ π' ἐπ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+#!ctsdata
+urn:cts:greekLit:tlg0012.tlg001.allen:11.502#Ἕκτωρ μὲν μετὰ τοῖσιν ὁμίλει μέρμερα ῥέζων
+urn:cts:greekLit:tlg0012.tlg001.allen:11.503#ἔγχεΐ θʼ ἱπποσύνῃ τε , νέων δʼ ἀλάπαζε φάλαγγας ·
+urn:cts:greekLit:tlg0012.tlg001.allen:11.504#οὐδʼ ἄν πω χάζοντο κελεύθου δῖοι Ἀχαιοὶ
+urn:cts:greekLit:tlg0012.tlg001.allen:11.505#εἰ μὴ Ἀλέξανδρος Ἑλένης πόσις ἠϋκόμοιο
+urn:cts:greekLit:tlg0012.tlg001.allen:11.506#παῦσεν ἀριστεύοντα Μαχάονα ποιμένα λαῶν ,
+urn:cts:greekLit:tlg0012.tlg001.allen:11.507#ἰῷ τριγλώχινι βαλὼν κατὰ δεξιὸν ὦμον .
+urn:cts:greekLit:tlg0012.tlg001.allen:11.508#τῷ ῥα περίδεισαν μένεα πνείοντες Ἀχαιοὶ
+urn:cts:greekLit:tlg0012.tlg001.allen:11.509#μή πώς μιν πολέμοιο μετακλινθέντος ἕλοιεν .
+urn:cts:greekLit:tlg0012.tlg001.allen:11.510#αὐτίκα δʼ Ἰδομενεὺς προσεφώνεε Νέστορα δῖον ·
+urn:cts:greekLit:tlg0012.tlg001.allen:11.511#ὦ Νέστορ Νηληϊάδη μέγα κῦδος Ἀχαιῶν
+urn:cts:greekLit:tlg0012.tlg001.allen:11.512#ἄγρει σῶν ὀχέων ἐπιβήσεο , πὰρ δὲ Μαχάων
+urn:cts:greekLit:tlg0012.tlg001.allen:11.513#βαινέτω , ἐς νῆας δὲ τάχιστʼ ἔχε μώνυχας ἵππους ·
+urn:cts:greekLit:tlg0012.tlg001.allen:11.514#ἰητρὸς γὰρ ἀνὴρ πολλῶν ἀντάξιος ἄλλων
+urn:cts:greekLit:tlg0012.tlg001.allen:11.515#ἰούς τʼ ἐκτάμνειν ἐπί τʼ ἤπια φάρμακα πάσσειν .
+urn:cts:greekLit:tlg0012.tlg001.allen:11.516#ὣς ἔφατʼ , οὐδʼ ἀπίθησε Γερήνιος ἱππότα Νέστωρ .
+urn:cts:greekLit:tlg0012.tlg001.allen:11.517#αὐτίκα δʼ ὧν ὀχέων ἐπεβήσετο , πὰρ δὲ Μαχάων
+urn:cts:greekLit:tlg0012.tlg001.allen:11.518#βαῖνʼ Ἀσκληπιοῦ υἱὸς ἀμύμονος ἰητῆρος ·
+urn:cts:greekLit:tlg0012.tlg001.allen:11.519#μάστιξεν δʼ ἵππους , τὼ δʼ οὐκ ἀέκοντε πετέσθην
+urn:cts:greekLit:tlg0012.tlg001.allen:11.520#νῆας ἔπι γλαφυράς · τῇ γὰρ φίλον ἔπλετο θυμῷ .
+urn:cts:greekLit:tlg0012.tlg001.allen:11.521#Κεβριόνης δὲ Τρῶας ὀρινομένους ἐνόησεν
+urn:cts:greekLit:tlg0012.tlg001.allen:11.522#Ἕκτορι παρβεβαώς , καί μιν πρὸς μῦθον ἔειπεν ·
+urn:cts:greekLit:tlg0012.tlg001.allen:11.523#Ἕκτορ νῶϊ μὲν ἐνθάδʼ ὁμιλέομεν Δαναοῖσιν
+urn:cts:greekLit:tlg0012.tlg001.allen:11.524#ἐσχατιῇ πολέμοιο δυσηχέος · οἳ δὲ δὴ ἄλλοι
+urn:cts:greekLit:tlg0012.tlg001.allen:11.525#Τρῶες ὀρίνονται ἐπιμὶξ ἵπποι τε καὶ αὐτοί .
+urn:cts:greekLit:tlg0012.tlg001.allen:11.526#Αἴας δὲ κλονέει Τελαμώνιος · εὖ δέ μιν ἔγνων ·
+urn:cts:greekLit:tlg0012.tlg001.allen:11.527#εὐρὺ γὰρ ἀμφʼ ὤμοισιν ἔχει σάκος · ἀλλὰ καὶ ἡμεῖς
+urn:cts:greekLit:tlg0012.tlg001.allen:11.528#κεῖσʼ ἵππους τε καὶ ἅρμʼ ἰθύνομεν , ἔνθα μάλιστα
+urn:cts:greekLit:tlg0012.tlg001.allen:11.529#ἱππῆες πεζοί τε κακὴν ἔριδα προβαλόντες
+urn:cts:greekLit:tlg0012.tlg001.allen:11.530#ἀλλήλους ὀλέκουσι , βοὴ δʼ ἄσβεστος ὄρωρεν .
+urn:cts:greekLit:tlg0012.tlg001.allen:11.531#ὣς ἄρα φωνήσας ἵμασεν καλλίτριχας ἵππους
+urn:cts:greekLit:tlg0012.tlg001.allen:11.532#μάστιγι λιγυρῇ · τοὶ δὲ πληγῆς ἀΐοντες
+urn:cts:greekLit:tlg0012.tlg001.allen:11.533#ῥίμφʼ ἔφερον θοὸν ἅρμα μετὰ Τρῶας καὶ Ἀχαιοὺς
+urn:cts:greekLit:tlg0012.tlg001.allen:11.534#στείβοντες νέκυάς τε καὶ ἀσπίδας · αἵματι δʼ ἄξων
+urn:cts:greekLit:tlg0012.tlg001.allen:11.535#νέρθεν ἅπας πεπάλακτο καὶ ἄντυγες αἳ περὶ δίφρον ,
+urn:cts:greekLit:tlg0012.tlg001.allen:11.536#ἃς ἄρʼ ἀφʼ ἱππείων ὁπλέων ῥαθάμιγγες ἔβαλλον
+urn:cts:greekLit:tlg0012.tlg001.allen:11.537#αἵ τʼ ἀπʼ ἐπισσώτρων . ὃ δὲ ἵετο δῦναι ὅμιλον
